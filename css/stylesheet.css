@@ -1,0 +1,934 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+img
+{
+	border:none;
+}
+
+p,span,h1,h2,h3,h4,h5,h6,td,div,ul,li
+{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style:none;
+}
+
+a,a:hover
+{
+	text-decoration:none;
+	color:#000;
+}
+
+
+/*Site Start*/
+
+#wrapper
+{
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../images/header-without-shadow.png) top repeat-x;
+}
+
+#header
+{
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../images/header-bg.png) center top no-repeat;
+}
+
+#content
+{
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../images/content-bg.png) repeat;
+}
+
+#footer
+{
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../images/footer-bg.png) #f5f5f5 top repeat-x; 
+	padding-top:29px;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////
+                               Home Page
+/////////////////////////////////////////////////////////////////////////////*/
+
+/*Header Start*/
+
+.header
+{
+	width:1024px;
+	height:auto;
+	margin:0px auto;
+}
+
+.logo-part
+{
+	width:1024px;
+	height:auto;
+	float:left;
+	padding-top:37px;
+}
+
+.logo
+
+{
+	width:440px;
+	height:auto;
+	float:left;
+	padding-left:11px;
+}
+
+.Status
+
+{
+	width:550px;
+	height:auto;
+	float:left;
+	padding-right:5px;
+}
+
+.Status h1
+
+{
+	width:550px;
+	height:auto;
+	float:left;
+	text-align:right;
+	font:Bold 20px Arial, STKaiti;
+	color:#ffffff;
+	padding-bottom:5px;
+}
+
+.find
+{
+	width:480px;
+	height:auto;
+	float:left;
+	font:Bold 14px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	text-transform:uppercase;
+	text-shadow: 1px 1px #001a38;
+}
+
+.menu-and-banner
+{
+	width:1005px;
+	height:auto;
+	float:left;
+	padding-left:11px;
+	padding-right:8px;
+	background:url(../images/shadow.png) top no-repeat;
+}
+
+.menu-part
+{
+	width:1005px;
+	height:40px;
+	float:left;
+	background:url(../images/menu-bg.png) repeat-x;
+	padding-top:3px;
+	font:Bold 21px Arial, STKaiti;
+	color:#ffffff;
+	text-transform:uppercase;
+	/*text-shadow: 1px 1px #001a38;*/
+}
+
+.menu
+{
+	margin:0px;
+	padding:0px;
+}
+
+.menu li
+{
+	display:inline-block;
+	float:left;
+	background:url(../images/menu-divater.png) right no-repeat;
+	height:25px;
+	padding-left:12px;
+	padding-right:13px;
+	padding-top:8px;
+	padding-bottom:7px;
+}
+
+.menu li a
+{
+	color:#ffffff;
+}
+
+.menu li a:hover
+{
+	color:#002c60;
+/*  	text-shadow: 1px 1px #002c60; */
+}
+
+.menu ul
+{
+	display:none;
+}
+
+.menu li:hover ul
+{
+	display:block; 
+	z-index:999;
+	position:relative; 
+	top:5px;
+	left:-13px;
+	width:86px; 
+	list-style:none;
+/* 	top:167px; 
+	left:460px; */
+	background:#1E7DEE;
+}
+.menu li:hover ul li
+{ 
+	width:86px;
+	list-style:none;
+	background:#1E7DEE;
+	border:#99C 1px solid; 
+	box-shadow:0 0 10px #DDD;
+}
+
+
+.banner
+{
+	width:1005px;
+	height:auto;
+	float:left;
+}
+
+/*Content Start*/
+
+.content
+{
+	width:1024px;
+	height:auto;
+	margin:0px auto;
+}
+
+.left-bg
+{
+	width:26px;
+	height:624px;
+	float:left;
+	background:url(../images/bg-left.png) no-repeat;
+	background-size:100% 100%;
+}
+
+.right-bg
+{
+	width:26px;
+	height:624px;
+	float:left;
+	background:url(../images/bg-right.png) no-repeat;
+	background-size:100% 100%;
+}
+.content-center
+{
+	width:972px;
+	height:auto;
+	float:left;
+	background:url(../images/ce-bg.png) top repeat-x;
+	background-size:100% 100%;
+	padding-top:15px;
+}
+
+
+.welcome-part
+{
+	width:972px;
+	height:auto;
+	float:left;
+	padding-top:13px;
+}
+
+.health-care
+{
+	width:596px;
+	height:auto;
+	float:left;
+	padding-left:28px;
+	padding-right:62px;
+}
+
+.health-care h1
+{
+	width:100%;
+	height:auto;
+	float:left;
+	font:Normal 18px Arial, STKaiti;
+	color:#013f8a;
+}
+
+.health-care h1 span
+{
+	width:100%;
+	height:auto;
+	float:left;
+	font:Bold 26px Arial, STKaiti;
+	color:#474747;
+	text-transform:uppercase;
+	padding-bottom:6px;
+}
+
+.health-care p
+{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#474747;
+	line-height:25px;
+	padding-bottom:13px;
+}
+
+.news
+{
+	width:286px;
+	height:auto;
+	float:left;
+}
+
+.news h1
+{
+	width:286px;
+	height:auto;
+	float:left;
+	font:Normal 18px Arial, STKaiti;
+	color:#013f8a;
+	padding-bottom:12px;
+}
+
+.news h1 span
+{
+	width:286px;
+	height:auto;
+	float:left;
+	font:Bold 26px Arial, STKaiti;
+	color:#474747;
+	text-transform:uppercase;
+}
+
+.list
+{
+	width:286px;
+	height:auto;
+	float:left;
+	color:#474747;
+	line-height:18px;
+}
+
+.list ul
+{
+	margin:0px;
+	padding:0px;
+}
+
+.list ul li
+{
+	background:url(../images/bult.png) left 1px no-repeat;
+	display:block;
+	padding-left:24px;
+	padding-right:14px;
+	padding-bottom:14px;
+}
+
+.divater
+{
+	width:944px;
+	height:auto;
+	float:left;
+	padding-left:28px;
+	margin-top:39px;
+}
+
+.tool
+{
+	width:944px;
+	height:auto;
+	padding-left:28px;
+	padding-top:17px;
+	padding-bottom:28px;
+}
+
+
+.tool_img
+{
+	height:100px;
+	width:460;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+/*Footer Start*/
+
+.footer-top
+{
+	width:1024px;
+	height:auto;
+	margin:0px auto;
+}
+
+.footer-menu
+{
+	width:977px;
+	height:auto;
+	float:left;
+	margin-top:-80px;
+	padding-top:74px;
+	padding-left:47px;
+	padding-bottom:24px;
+}
+
+.weichat_code
+{
+	width:260px;
+	height:202px;
+	float:left;
+	background:url(../images/v-divater.png) right repeat-y;
+}
+
+.weichat_code_text
+{
+	width:20px;
+	float:left;
+	font:Normal 18px Arial, STKaiti;
+	color:#474747;	
+}
+
+.weichat_code_img
+{
+	width:200px;
+	height:200px;
+	float:right;
+	padding-right:30px;
+}
+
+.contact
+{
+	width:661px;
+	height:auto;
+	float:left;
+	padding-left:32px;
+}
+
+.contact p
+{
+	width:100%;
+	height:auto;
+	float:left;
+	font:Normal 12px Arial, Helvetica, sans-serif;
+	color:#474747;
+	line-height:18px;
+}
+
+.contact h2
+{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#474747;
+	padding-top:3px;
+	padding-bottom:6px;
+}
+
+.address
+{
+	width:303px;
+	float:left;
+	text-align:left;
+	color:#474747;
+	line-height:20px;
+}
+
+.address h2
+{
+	font:Bold 26px Arial, STKaiti;
+}
+
+#map
+{
+	width:300px;
+	height:200px;
+	float:right;
+	border:#ccc solid 1px;
+	font-size:12px;
+}
+
+.footer-bottom
+{
+	width:100%;
+	height:61px;
+	float:left;
+	background:url(../images/footer-bottom.png) repeat-x;
+	padding-top:26px;
+}
+
+.copy-right-text
+{
+	width:800px;
+	height:auto;
+	font:Bold 12px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	padding-top:10px;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////
+                               Hospital Page
+/////////////////////////////////////////////////////////////////////////////*/
+
+.title-part
+{
+	width:1005px;
+	height:auto;
+	float:left;
+}
+
+.title-image
+{
+	width:1005px;
+	height:auto;
+	float:left;
+}
+
+
+.title-part-bg
+{
+	width:981px;
+	height:45px;
+	float:left;
+	background:url(../images/title-bg.png) no-repeat;
+	margin-top:-52px;
+	z-index:100;
+	font:Normal 24px Arial, STKaiti;
+	color:#FFF;
+	text-transform:uppercase;
+	padding-top:63px;
+	padding-left:24px;
+}
+
+.hospital-text-part
+{
+	width:952;
+	padding:10px;
+	height:auto;
+	float:left;
+}
+
+.hospital-text-part h1
+{
+	width:100%;
+	height:auto;
+	float:left;
+	font:Bold 24px Arial, STKaiti;
+	color:#474747;
+}
+
+.hospital-text-part p
+{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#474747;
+	line-height:25px;
+	padding-right:26px;
+	padding-top:15px;
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////
+                              Our Doctors Page
+/////////////////////////////////////////////////////////////////////////////*/
+
+.specialty-doctors-part
+{
+	width:100%;
+	height:auto;
+	float:left;
+	padding-left:11px;
+}
+
+.specialty-doctors-inner
+{
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+
+.specialty-doctors
+{
+	width:299px;
+	height:auto;
+	float:left;
+	margin-right:25px;
+	margin-top:10px;
+}
+
+.specialty-doctors-part h1
+{
+	width:100%;
+	height:auto;
+	float:left;
+	color:#474747;
+	font:Bold 24px Arial, STKaiti;
+	padding-bottom:23px;
+	padding-top:10px;
+}
+
+.specialty-doctors h2
+{
+	width:96px;
+	height:146px;
+	float:left;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-left:20px;
+	background-size:contain;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.specialty-doctors h3
+{
+	width:104px;
+	height:auto;
+	float:left;
+	font:Bold 20px Arial, STKaiti;
+	color:#054899;
+	padding:20px;
+	margin-top:35px;
+}
+
+.specialty-doctors h3 span
+{
+	width:104px;
+	height:auto;
+	float:left;
+	font:Bold 16px Arial, Helvetica, sans-serif;
+	color:#626262;
+	padding-top:10px;
+}
+
+.specialty-doctors p
+{
+	width:299px;
+	height:auto;
+	float:left;
+	font:Normal 12px Arial, Helvetica, sans-serif;
+	color:#474747;
+	padding-bottom:10px;
+	line-height:22px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////
+                              For Offices Page
+/////////////////////////////////////////////////////////////////////////////*/
+.content-left
+{
+	width:679px;
+	height:auto;
+	float:left;
+	padding-left:11px;
+	padding-right:20px;
+}
+
+.office_text_part h1
+{
+	font:Bold 24px Arial, STKaiti;
+	color:#054899;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.office_text_part p
+{
+	color:#474747;
+	line-height:25px;
+}
+
+.patients-part
+{
+	width:660px;
+	height:auto;
+	float:left;
+	padding-bottom:30px;
+	padding-left:15px;
+}
+
+.patients-area
+{
+	width:301px;
+	height:auto;
+	float:left;
+	padding-top:10px;
+	padding-left:15px;
+}
+
+.patients-area h1,.patients-part h1
+{
+	height:auto;
+	float:left;
+	font:Bold 16px Arial, Helvetica, sans-serif;
+	color:#054899;
+}
+
+.patients-area p,.patients-part p
+{
+	height:auto;
+	float:left;
+	font:Normal 14px Arial, Helvetica, sans-serif;
+	color:#474747;
+	padding-bottom:10px;
+	padding-top:10px;
+	line-height:25px;
+}
+
+.sidebar
+{
+	width:261px;
+	height:auto;
+	float:left;
+}
+
+.sidebar-inner
+{
+	width:250px;
+	height:auto;
+	float:left;
+	background:url(../images/sidebar-bg.png) top #023a7b repeat-x;
+	padding-top:32px;
+	margin-bottom:60px;
+	
+}
+
+.facilities
+{
+	width:250px;
+	height:auto;
+	float:left;
+}
+
+.facilities h1,.video h1,.service-sidebar h1,.download h1,.recent-post h1,.twitter h1
+{
+	width:230px;
+	height:auto;
+	float:left;
+	padding-left:20px;
+	font:Bold 25px Arial, STKaiti;
+	color:#ffffff;
+}
+
+
+.facilities-list,.facilities p
+{
+	width:230px;
+	height:auto;
+	float:left;
+	font:Bold 20px Arial, STKaiti;
+	color:#ffffff;
+	line-height:26px;
+	padding-left:20px;
+}
+
+.facilities-list ul
+{
+	margin-top:6px;
+	padding:0px;
+
+}
+
+.facilities-list ul li
+{
+	background:url(../images/side-bar-bulet.png) left no-repeat;
+	padding-left:21px;
+
+}
+
+.facilities-list ul li a
+{
+	color:#ffffff;
+}
+
+.facilities-list ul li a:hover
+{
+	color:#79b6ff;
+}
+
+
+.facilities h2,.video h2,.service-sidebar h2,.download h2,.recent-post h2,.twitter h2
+{
+	width:250px;
+	height:auto;
+	float:left;
+	text-align:center;
+	margin-top:12px;
+	margin-bottom:15px;
+}
+
+.video
+{
+	width:230px;
+	height:auto;
+	float:left;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.service-sidebar
+{
+	width:250px;
+	height:auto;
+	float:left;
+}
+
+.service-sidebar p
+{
+	width:230px;
+	height:auto;
+	float:left;
+	padding-left:20px;
+	font:Normal 18px Arial, STKaiti;
+	color:#ffffff;
+}
+
+.news-letter
+{
+	width:233px;
+	height:94px;
+	float:left;
+	background:url(../images/news-letter-bg.png) no-repeat;
+	padding-left:27px;
+	padding-top:18px;
+}
+
+.news-letter p
+{
+	font:Bold 20px Arial, STKaiti;
+	color:#FFF;
+	padding-top:8px;
+	padding-left:16px;
+}
+
+.news-letter h1
+{
+	width:233px;
+	height:auto;
+	float:left;
+	font:Bold 14px Arial, Helvetica, sans-serif;
+	color:#FFF;
+	line-height:18px;
+	padding-top:10px;
+}
+
+.inner-testimonial
+{
+	width:650px;
+	height:auto;
+	float:left;
+	background:url(../images/list-divater.png) top repeat-x;
+	padding-top:25px;
+	padding-bottom:20px;
+}
+
+.inner-testimonial-img
+{
+	width:170px;
+	height:auto;
+	float:left;
+}
+
+.inner-testimonial-text
+{
+	width:470px;
+	height:auto;
+	float:left;
+	padding-left:10px;
+}
+
+.inner-testimonial h1
+{
+	width:498px;
+	height:auto;
+	float:left;
+	font:Normal 18px Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+.inner-testimonial h1 span
+{
+	font:Normal 14px Arial, Helvetica, sans-serif;
+	color:#1e7dee;
+}
+
+.inner-testimonial h2
+{
+	width:498px;
+	height:auto;
+	float:left;
+	font:Normal 16px Georgia, "Times New Roman", Times, serif;
+	color:#4d4d50;
+	line-height:24px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////
+                           Rehabilitation Page
+/////////////////////////////////////////////////////////////////////////////*/
+
+.health-part
+{
+	width:670px;
+	height:auto;
+	float:left;
+	margin-top:10px;
+}
+
+.health-list
+{
+	width:670px;
+	height:auto;
+	float:left;
+	padding-top:10px;
+}
+
+.health-list-img
+{
+	width:654px;
+	height:auto;
+	float:left;
+	background:#FFF;
+	border:#f1f2f2 solid 1px;
+	padding:6px;
+}
+
+.health-text-part
+{
+	width:670px;
+	height:auto;
+	float:left;
+	margin-top:24px;
+}
+
+.health-text-inner
+{
+	width:456px;
+	height:auto;
+	float:left;
+}
