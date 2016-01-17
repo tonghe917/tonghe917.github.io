@@ -43,6 +43,7 @@ a,a:hover
 	height:auto;
 	float:left;
 	background:url(../images/header-bg.png) center top no-repeat;
+	background-size:cover;
 }
 
 #content
