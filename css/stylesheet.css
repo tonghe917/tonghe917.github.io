@@ -42,11 +42,13 @@ a,a:hover
 	width:100%;
 	height:auto;
 	float:left;
-	background:url(../images/header-bg.png) center top no-repeat;
+	background:url(../images/header-bg.png) center top no-repeat fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
 	background-size:cover;
 }
 
-#content
+#conten
 {
 	width:100%;
 	height:auto;
